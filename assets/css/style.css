@@ -1,0 +1,248 @@
+
+
+body {
+    font-size: 16px;
+}
+
+/* header section */
+
+.nav {
+    height: 8vh;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+ 
+ header h1 {
+    background-color: #4aaaa5;
+    padding: 15px;
+    color: #fff;
+    font-size: 1.5em;
+} 
+
+ul{
+    display: flex;
+}
+
+li {
+    margin: 30px;
+}
+
+a {
+    padding-left: 20px ;
+    text-decoration: none;
+    color: #777777;
+    text-transform: capitalize;
+}
+
+.middle-li {
+    border-left:1px solid #777777 ;
+    margin:0px 10px;
+    padding:0px 10px;
+    border-right:1px solid #777777  ;
+}
+
+/* main section */
+
+
+.content {
+    background-image: url(../images/more-leaves-on-green.png);
+    height: 75vh; 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1px;
+    padding-top: 10px; 
+    padding-left: 210px;
+} 
+
+.about-section {
+    height: 45vh;
+    width: 40vw;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-bottom: 40px;
+    }
+
+.about-section h1 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+.image-paragraph {
+    display: flex;
+    border-top:1px solid #dddddd;
+    padding-top: 10px;
+}
+
+.image-paragraph img {
+    height: 20vh;
+    width: 15vw;
+    margin: 3px;
+    text-align: left;
+}
+
+.image-paragraph p {
+    font-size: .8em;
+    line-height: 25px;
+    width: 300px;
+    color: #777777;
+    margin: 20px;
+    margin-top: 0;
+ }
+
+.p-bottom {
+    font-size: .8em;
+    line-height: 25px;
+    margin-left: 3px;
+    color: #777777;
+}
+
+.contact-section {
+    height: 20vh;
+    width: 15vw;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-right: 200px;
+}
+
+.contact-section h3 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: #4aaaa5;
+}
+
+.pattren {
+    border-top:1px solid #dddddd;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.pattren a img {
+    height: 40px;
+    width: 40px;
+}
+
+/* footer section */
+
+.footer-section {
+    height: 6vh;
+    border-top:4px solid #4aaaa5;
+    background-color: #666666;
+    text-align: center;
+    color: #cccccc; 
+    padding: 5px;
+}
+
+/* contact section */
+
+.form-section {
+    height: 65vh;
+    width: 40vw;
+    background-color: #ffffff;
+    padding:10px 30px;
+}
+
+.form-section h1 {
+    font-size: 1.3em;
+    border-bottom: 2px solid #dddddd;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#text  {
+    width: 30vw;
+    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+
+#massage  {
+    width: 30vw;
+    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+
+#email  {
+    width: 30vw;
+    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+
+label {
+    color: #777777;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    border: none;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
+/* portfilo section */
+
+.portfilo {
+    height: 70vh;
+    width: 40vw;
+    background-color: #ffffff;
+    padding: 10px;
+       
+}
+
+.portfilo h1 {
+    font-size: 1.3em;
+    border-bottom: 2px solid #dddddd;
+    padding: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center ;
+    gap: 5px;
+    padding:0px 55px;
+}
+
+.image {
+    position: relative;
+}
+
+.portfilo img {
+    height: 20vh;
+    width: 15vw;
+}
+
+.cover {
+    height: 30px;
+    width: 15vw;
+    background-color: #4aaaa5;
+    position: absolute;
+    top: 70px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+
